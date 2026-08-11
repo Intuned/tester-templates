@@ -742,7 +742,7 @@ wheels = [
 ]
 
 [[package]]
-name = "py-proxy-tester-project"
+name = "py-proxy-tester-project-authenticated"
 version = "0.0.1"
 source = { virtual = "." }
 dependencies = [

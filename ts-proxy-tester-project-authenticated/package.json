@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "@intuned/browser": "0.1.16",
-    "@intuned/runtime": "npm:@intuned/runtime-dev@1.3.41-proxy1",
+    "@intuned/runtime": "npm:@intuned/runtime-dev@1.3.41-proxy2",
     "@types/node": "^20.10.3",
     "playwright": "~1.61.1"
   }
