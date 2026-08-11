@@ -1,0 +1,19 @@
+{
+  "configuration": {
+    "maxConcurrentRequests": 1,
+    "retry": {
+      "maximumAttempts": 1
+    }
+  },
+  "payload": [
+    {
+      "apiName": "authed-egress-ip",
+      "parameters": {
+        "url": "https://api.ipify.org/?format=json"
+      }
+    }
+  ],
+  "auth_session": {
+    "id": "proxy-authsession"
+  }
+}

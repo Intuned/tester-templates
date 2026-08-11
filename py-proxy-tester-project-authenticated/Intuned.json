@@ -1,0 +1,20 @@
+{
+  "version": "2.0",
+  "authSessions": {
+    "enabled": true,
+    "type": "API"
+  },
+  "replication": {
+    "size": "standard",
+    "minCount": 0,
+    "maxCount": 2
+  },
+  "metadata": {
+    "defaultRunPlaygroundInput": {
+      "apiName": "authed-egress-ip",
+      "parameters": {
+        "url": "https://api.ipify.org/?format=json"
+      }
+    }
+  }
+}

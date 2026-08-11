@@ -1,0 +1,12 @@
+{
+  "targets": [
+    {
+      "label": "primary",
+      "url": "https://api.ipify.org/?format=json"
+    },
+    {
+      "label": "fallthrough",
+      "url": "https://ipinfo.io/json"
+    }
+  ]
+}
