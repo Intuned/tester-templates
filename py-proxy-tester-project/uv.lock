@@ -446,7 +446,7 @@ wheels = [
 
 [[package]]
 name = "intuned-runtime"
-version = "1.3.44a2"
+version = "1.3.44a3"
 source = { registry = "https://test.pypi.org/simple/" }
 dependencies = [
     { name = "aiofiles" },
@@ -474,9 +474,9 @@ dependencies = [
     { name = "toml" },
     { name = "waitress" },
 ]
-sdist = { url = "https://test-files.pythonhosted.org/packages/32/d3/e91086fe1e9514112974d787ebd535b0e5e9c02c7afed680306cfddeea21/intuned_runtime-1.3.44a2.tar.gz", hash = "sha256:28a68607959e8530f69e9ff55224d22b9af706a283c1aee372a73b950849ac25", size = 158562, upload-time = "2026-08-11T16:15:11.76Z" }
+sdist = { url = "https://test-files.pythonhosted.org/packages/32/46/977c3968b2b99b7b9bf3145cbe43653ee9a4aebbd283db93b3bf9952ebaa/intuned_runtime-1.3.44a3.tar.gz", hash = "sha256:f40869ca351fe11b1e631534f36d96fa9c71cf6c0cecffc08e1e9b3ce13cbba9", size = 7150145, upload-time = "2026-08-13T11:00:32.581Z" }
 wheels = [
-    { url = "https://test-files.pythonhosted.org/packages/26/4c/0fc9f18d1e0bb20583e8c0539c4887355971ea1f4b7189ce3f1a1afa238a/intuned_runtime-1.3.44a2-py3-none-any.whl", hash = "sha256:ec2982ea6981adeb7fc8c1face88d46e28e76b4ce09984926c31b60895b9c5ea", size = 87099, upload-time = "2026-08-11T16:15:09.851Z" },
+    { url = "https://test-files.pythonhosted.org/packages/b2/0a/a05cd20b9acf14a282420f62580eba0836807fcddc63a9632fc307af4462/intuned_runtime-1.3.44a3-py3-none-any.whl", hash = "sha256:b50e75686e9b95bb926c079a80a73af75ce49c7edc57e0e598b6c4941d45ede5", size = 87117, upload-time = "2026-08-13T11:00:29.086Z" },
 ]
 
 [[package]]
@@ -754,7 +754,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "intuned-browser", specifier = "==0.1.18" },
-    { name = "intuned-runtime", specifier = "==1.3.44a2", index = "https://test.pypi.org/simple/" },
+    { name = "intuned-runtime", specifier = "===1.3.44a3", index = "https://test.pypi.org/simple/" },
     { name = "playwright", specifier = "==1.61.0" },
 ]
 
